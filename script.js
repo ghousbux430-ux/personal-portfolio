@@ -267,13 +267,13 @@ if (contactForm) {
         }
 
         try {
-            const response = await fetch("https://personal-portfolio-kappa-woad.vercel.app/", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(formData)
-            });
+            const response = await fetch(CONTACT_API_URL, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(formData)
+        });
 
             const responseText = await response.text();
             let result = {};
