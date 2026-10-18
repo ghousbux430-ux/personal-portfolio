@@ -13,7 +13,7 @@ app = FastAPI(title="Portfolio Contact API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://fastidious-alpaca-6564cb.netlify.app/contact",
+        "https://stately-torrone-9c3ba3.netlify.app/",
         "https://portfolio-azzxxdybq-gbcodes.vercel.app",
         "http://127.0.0.1:5500",
         "http://localhost:5500",
