@@ -231,7 +231,7 @@ mobileNavLinks.forEach(link => {
 ========================= */
 
 const CONTACT_API_URL =
-    "https://portfolio-backend-r4r2-pmspbb5sq-gbcodes.vercel.app/contact";
+    "https://personal-portfolio-kappa-woad.vercel.app/contact";
 
 const contactForm = document.getElementById("contact-form");
 
@@ -267,7 +267,7 @@ if (contactForm) {
         }
 
         try {
-            const response = await fetch(CONTACT_API_URL, {
+            const response = await fetch("https://personal-portfolio-kappa-woad.vercel.app/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
