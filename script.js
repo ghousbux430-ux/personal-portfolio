@@ -231,7 +231,7 @@ mobileNavLinks.forEach(link => {
 ========================= */
 
 const CONTACT_API_URL =
-    "https://personal-portfolio-kappa-woad.vercel.app/contact";
+    "https://personal-portfolio-kappa-woad.vercel.app";
 
 const contactForm = document.getElementById("contact-form");
 
